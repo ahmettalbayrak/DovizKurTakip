@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_kur_history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="doviz.app.KurHistory">
+
+    <ListView
+        android:layout_weight="3"
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></ListView>
+
+    <WebView
+        android:id="@+id/wv"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></WebView>
+
+</LinearLayout>
